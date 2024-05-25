@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #6D9E80 3px solid;
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #6D9E80;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .title-container{
+    margin-top: 200px;
+  }
+
+  p{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .title{
+    width: 1300px;
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffffff;
+  }
+
+  .small-text-container{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size:20px ;
+  }
+
+  .button{
+    margin-top:40px ;
+    padding: 5px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+    opacity: 0.85;
+    background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+  }
+  :hover.button{
+    opacity: 1;
+    cursor: pointer;
+  }
